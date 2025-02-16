@@ -11,6 +11,7 @@ app.config['SECRET_KEY'] = 'thisisasecretkey'  # Dynamically Generated Secret Ke
 app.config['DEBUG'] = True
 
 db = SQLAlchemy(app)
+# hello
 
 # -------------------- Models --------------------
 # User Model for Authentication
